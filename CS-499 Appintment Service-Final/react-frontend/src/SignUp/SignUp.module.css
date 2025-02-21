@@ -1,0 +1,90 @@
+/* Main Container */
+.SignUp {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e3f2fd, #90caf9); 
+  }
+  
+  /* Header Styling */
+  .SignUp-header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  /* Header Titles */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin: 20px 0 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  h4 {
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+  }
+  
+  h5 {
+    margin-top: 20px;
+    font-size: 1rem;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #61dafb;
+  }
+  
+  h5:hover {
+    color: #21a1f1;
+  }
+  
+  /* Input Fields */
+  .input-group {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Button Styling */
+  .SignUpButton {
+    background-color: #61dafb;
+    color: #282c34;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #21a1f1;
+  }
+  
+
+  
