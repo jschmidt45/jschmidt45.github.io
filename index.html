@@ -7,9 +7,9 @@ layout: default
 </header>
 <h2>Introduction</h2>
 <p>
-  Hello! My name is John Schmidt and I began attending SNHU for a degree in computer science about two and a half years ago. In this course, CS-499, the core objective was to demonstrate our
-  growth by improving on older projects that we had created in previous classes while learning more about the software engineering field. The goal of these improvements are to showcase our 
-  abilities in three key areas; software design and engineering, algorithms and data structures, and databases. In this self-assessment, I will explain my selection of artifacts, the improvements
+  Hello! My name is John Schmidt, and I began attending SNHU for a degree in computer science about two and a half years ago. In this course, CS-499, the core objective was to demonstrate our
+  growth by improving older projects that we had created in previous classes while learning more about the software engineering field. The goal of these improvements is to showcase our 
+  abilities in three key areas: software design and engineering, algorithms and data structures, and databases. In this self-assessment, I will explain my selection of artifacts, the improvements
   that I made to them, the other steps along the way, and what I have learned beyond the artifacts from my programs at SNHU.
 </p>
 </br>
@@ -22,46 +22,46 @@ layout: default
 <h3>Task Service</h3>
 <p>
   The first assignment I chose was called TaskService. It is a Java project that allows users to create a task object with parameters such as description and name. I selected this artifact to demonstrate
-  my growth and ability regarding data structures and algorithms. The original data structure that held the tasks was a hash map and while that worked well for simply storing the tasks, hash maps
-  do not have the ability to sort their contents. For myself, if I was using a program that allowed me to store and see tasks, I would want the ability to sort and view them based on metrics such 
-  as priority and deadline. So, my planned improvement for this artifact was to first update the task object to include date and priority parameters, and then implement tree maps, which would 
-  automatically sort them based on these parameters. That way, the program could return tasks sorted by the parameter selected. You can see the original artifact below.
+  my growth and ability regarding data structures and algorithms. The original data structure that held the tasks was a hash map, and while that worked well for simply storing the tasks, hash maps
+  do not have the ability to sort their contents. For myself, if I were using a program that allowed me to store and see tasks, I would want the ability to sort and view them based on metrics such 
+  as priority and deadline. So, my planned improvement for this artifact was to first update the task object to include date and priority parameters and then implement tree maps, which would 
+  automatically sort them based on these parameters. That way, the program could return tasks sorted by the selected parameter. You can see the original artifact below.
 </p>
 <h4>Original Task Service Artifact</h4>
 <ul>
-  <li><a href="https://github.com/jschmidt45/jschmidt45.github.io/tree/main/TaskService-Original">View Task Service Files in Github</a></li>
+  <li><a href="https://github.com/jschmidt45/jschmidt45.github.io/tree/main/TaskService-Original">View Task Service Files in GitHub</a></li>
   <li><a href="https://github.com/jschmidt45/jschmidt45.github.io/blob/main/TaskService-Original.zip" download>Download TaskService-Original.zip</a></li>
 </ul>
 </br>
 <h3>Appointment Service</h3>
 <p>
-  The second assigment that I chose was called AppointmentService. Like TaskService, AppointmentService was a simple Java program that allowed users to create an appoinment with the parameters of ID, date, and description. 
-  My idea for this project was to integrate it with a functional frontend and database to create an entire application with the original AppointmentServive being the basis for my backend code. With this artifact, I planned
+  The second assignment that I chose was called AppointmentService. Like TaskService, AppointmentService was a simple Java program that allowed users to create an appointment with the parameters of ID, date, and description. 
+  My idea for this project was to integrate it with a functional frontend and database to create an entire application, with the original AppointmentService being the basis for my backend code. With this artifact, I planned
   on demonstrating my growth in both software engineering and design, as well as databases. My planned improvement was to create a frontend using React that had a login page, a signup page, and the overall appointments page.
-  I then planned to implement a MySQL database to store the information for users and appointments. Then, I would integrate Spring Boot to tranform the AppointmentService java file into a RESTful API that would allow my frontend
+  I then planned to implement a MySQL database to store the information for users and appointments. Then, I would integrate Spring Boot to transform the AppointmentService Java file into a RESTful API that would allow my frontend
   to interact with the database.
 </p>
 <h4>Original Appointment Service Artifact</h4>
 <ul>
-  <li><a href="https://github.com/jschmidt45/jschmidt45.github.io/tree/main/AppointmentService%20-%20Original%20Artifact/AppointmentService">View Appointment Service Files in Github</a></li>
+  <li><a href="https://github.com/jschmidt45/jschmidt45.github.io/tree/main/AppointmentService%20-%20Original%20Artifact/AppointmentService">View Appointment Service Files in GitHub</a></li>
   <li><a href="https://github.com/jschmidt45/jschmidt45.github.io/blob/main/AppointmentService%20-%20Original%20Artifact.zip" download>Download Appointment Service.zip</a></li>
 </ul>
 </br>
 <h2>Code Review</h2>
 <p>
-  Following the selection of our artifacts, our next assignment was to complete a thorough code reivew. In this code review, I talk about the original artifact code and cover topics such as functionality, best practices, format,
+  Following the selection of our artifacts, our next assignment was to complete a thorough code review. In this code review, I talk about the original artifact code and cover topics such as functionality, best practices, format,
   and potential areas for improvement. Following this, I outlined the ideas that I had for the code improvement that I described above while referencing the original code. You can find this video below.
 </p>
 <h3>Code Review Video.</h3>
 <video width="640" height="360" controls>
   <source src="CS-499_Module_Two_Milestone.mp4" type="video/mp4">
-  If you are not able to watch it in browser: <a href="CS-499_Module_Two_Milestone.mp4" download>Download it here</a>.
+  If you are not able to watch it in the browser: <a href="CS-499_Module_Two_Milestone.mp4" download>Download it here</a>.
 </video>
 </br>
 </br>
 <h2>Enhancement One</h2>
 <p>
-  For the first enhancement, our task was to improve on our artifcat in a way that demonstrated software engineering and design. For this enhancement, I created my React frontend portion of the application. The fronted consisted of a login, 
+  For the first enhancement, our task was to improve on our artifact in a way that demonstrated software engineering and design. For this enhancement, I created my React frontend portion of the application. The fronted consisted of a login, 
   sign up, and appointment page. I also integrated the MySQL database to hold information about the appointments, but I had not set it up to hold user information for this enhancement. So at this point, the application still had hardcoded
   login information and the sign up page was not functional yet. I also had incorporated Spring Boot to turn my existing Java code into a RESTful API. I had to alter many aspects of the original code to make this succesfull. However, the 
   main logic of the original AppointmentService was still the basis of my backend code. Attached below is my narrative for enhacement one. My code for the overall project will be included below with enhancement three.
@@ -97,5 +97,25 @@ layout: default
 </br>
 <h2>Reflection and Self-Assessment</h2>
 <p>
-  
+  This capstone course and my other classes throughout my time at SNHU have played a crucial role in shaping my skills as a software developer and preparing me for a career in the computer science field. This program has helped me develop a strong 
+  background in areas such as software engineering, software design, database management, data structures, algorithms, security, and collaboration. By building my ePortfolio, I have been able to showcase my strengths, growth, and ability to solve problems that 
+  are directly applicable to the software development field.
+</p>
+</br>
+<p>
+  From my coursework, I have learned a lot about agile development and team communication that shape how an application is planned and designed. In many instances, we have had to take information given to us by stakeholders and potential users and interpret 
+  that information in order to create an application that would fit the needs of its customer base while not exceeding the constraints placed on the product itself. We have learned how the many moving pieces of an agile team all contribute to the development 
+  of a final product. Because of these lessons, I have learned how crucial effective collaboration and teamwork are when building a software product.
+</p>
+</br>
+<p>
+  This program has also helped me gain experience in software design, security, databases, and algorithms. These key concepts in coding were emphasized in each course as we continued to build on each foundational concept. In every project or milestone that we 
+  completed, we further expanded on one or more of these crucial areas. This has allowed me to build a solid foundation in each of these core coding practices. Because of this, I have learned how to create applications that integrate various frameworks and databases 
+  while protecting user data and using data structures and algorithms that are efficient and perform the required functionality of the application. 
+</p>
+</br>
+<p>
+  Overall, my coursework and ePortfolio have helped me obtain the necessary skills to be prepared to enter the software development field with confidence. By using my technical skills and ability to problem solve, I hope to use what I have learned throughout 
+  this program to become a successful software developer following graduation. I believe that my coursework, internship, and projects have prepared me to step into the computer science field with a solid foundation and the skills to contribute meaningfully to any team 
+  that I would be a part of.
 </p>
